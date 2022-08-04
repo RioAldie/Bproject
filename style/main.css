@@ -1,0 +1,159 @@
+.main{
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+.main .hero{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.main .hero .box-hero{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    justify-content: space-around;
+}
+.main .hero .box-hero .main-hero{
+    width: 575px;
+    height: 250px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.main .hero .box-hero .sub-hero{
+    width: 475px;
+    height: 96px;
+    margin-top: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:  rgba(255, 255, 255, 0.8);
+
+}
+.main .hero .box-hero .order-session{
+    height: 71px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50px;
+}
+.main .hero .box-hero .order-session .btn-order{
+    width: 229px;
+    height: 71px;
+    border-radius: 100px;
+    background: rgba(0, 186, 199, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    box-shadow: 0px 15px 30px 0px rgba(0, 186, 199, 0.33);
+    cursor: pointer;
+    z-index: 1;
+}
+.order-data{
+    width: 190px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+ .order-data .order-data-sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 190px;
+    height: 30px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+.order-data .order-data-num{
+    font-family: 'DM Sans', sans-serif;
+    width: 190px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.btn-order .icon-arrow{
+    
+    display: flex;
+    align-self: center;
+    margin-left: 15px;
+    justify-content: flex-start;
+}
+.main .hero .box-hero .tools-list{
+    width: 370px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'DM Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.4);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+.main .hero .box-hero .tools-list ul{
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: -40px;
+}
+.main .hero .box-hero .tools-list ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+.main .thumbnail{
+    width: 50%;
+    display: flex;
+}
+.main .thumbnail .thumbnail-img{
+    width: max-content;
+    height: max-content;
+    position: absolute;
+}

@@ -1,0 +1,187 @@
+.store{
+    width: 1180px;
+    height: 1324px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    position: relative;
+    /* margin-top: 6788px; */
+    margin-top: 500px;
+    left: auto;
+    margin-left: 185px;
+    z-index: 100;
+}
+.store .store-boxs{
+   width: 777px;
+   height: 220px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-content: center;
+   align-items: center;
+}
+.store .store-boxs .store-path{
+    width: 142px;
+    height: 38px;
+    background: #C6F4F81A;
+    font-family: 'DM Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #00BAC7;
+    border-radius: 100px;
+    align-self: center;
+}
+.store .store-boxs .store-title{
+    width: 777px;
+    height: 88px;
+    font-family: 'DM Sans', sans-serif;
+    color: #fff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.store .store-boxs .store-p{
+    width: 577px;
+    height: 65px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 20px;
+}
+
+.bg-rectangle-2{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    margin-top: 1588px;
+
+   
+}
+.rectangle-2{
+    position: relative;
+    
+    width: 100%;
+    height: max-content;
+    z-index: -1;
+}
+.store-container{
+    width: 1179px;
+    height: 533px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.store-container .store-card{
+    width: 372px;
+    height: 533px;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    box-sizing: border-box;
+}
+.store-card .card-title{
+    width: 89px;
+    height: 21px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    color: rgba(0, 186, 199, 1);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.store-card .card-price{
+    width: 166px;
+    height: 46px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 21, 51, 1);
+    margin-top: 1px;
+}
+.store-card .cards-list{
+    display: flex;
+    flex-direction: column;
+    width: 179px;
+    height: 220px;
+    margin-top: -20px;
+}
+.store-card .cards-list .card-list{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+}
+.store-card .cards-list .card-list img{
+    margin-right: 10px;
+}
+.buy-btn{
+    width: 230px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background: rgba(0, 186, 199, 1);
+    box-shadow: 0px 30px 60px 0px rgba(74, 114, 255, 0.25);
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    cursor: pointer;
+}
+.notes{
+    width: 577px;
+    height: 64px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 80px;
+}

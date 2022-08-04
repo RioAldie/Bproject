@@ -1,0 +1,570 @@
+.body{
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 400px;
+    position: relative;
+}
+.body .container-one{
+    max-width: 1179px;
+    min-height: 1023px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-self: center;
+    
+}
+.box-target{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+}
+.text-target{
+    display: flex;
+    width: 473px;
+    height: 132px;
+    flex-direction: column;
+    font-family: 'DM Sans',sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.subtext-target{
+    width: 575px;
+    height: 128px;
+    margin-top: 82px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(39, 45, 62, 0.8);
+}
+h3{
+    font-family:" DM Sans",sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    text-transform: uppercase;
+    color: rgba(0, 186, 199, 1);
+    display: flex;
+    flex-direction: row;
+}
+.strip{
+    display: flex;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+.box-spec{
+    width: 1179px;
+    height: 380px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    color: #000;
+    margin-top: 150px;
+}
+.spec-card{
+    width: 373px;
+    height: 379px;
+    display: flex;
+    flex-direction: column;
+}
+.spec-title{
+    width: 372px;
+    height: 32px;
+    display: flex;
+    font-family: 'DM Sans',sans-serif;
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    align-items: center;
+    justify-content: center;
+}
+.spec-text{
+    width: 372px;
+    height: 96px;
+    font-family: 'DM Sans', sans-serif;
+    color: rgba(39, 45, 62, 0.8);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.container-two{
+    width: 100%;
+    height: 720px;
+    background: rgba(0, 186, 199, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-two .writer-session{
+    width: 1179px;
+    height: 520px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+h4{
+    font-family:" DM Sans",sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+.title-writer{
+    width: 371px;
+    height: 88px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+.writer-profile{
+    width: 271px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.writer-profile .writer-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url('../asset/penulis.png');
+}
+.writer-profile .writer-name{
+    width: 200px;
+    height: 46px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.name-writer{
+    width: 200px;
+    height: 23px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    display: flex;
+    color: #fff;
+}
+.email-writer{
+    width: 120px;
+    height: 18px;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    display: flex;
+    margin-top: -10px;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+.kata-pengantar{
+    width: 674px;
+    height: 520px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.container-three{
+    width: 100%;
+    height: 932px;
+    position: relative;
+    background: #EDFCFD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-three .manfaat-session{
+    width: 1180px;
+    height: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+.manfaat-session .manfaat-boxone{
+    width: 575px;
+    height: 572px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+.manfaat-session .manfaat-boxtwo{
+    width: 575px;
+    height: 600px;
+    margin-top: 200px;
+    margin-left: 30px;
+}
+.manfaat-tmb{
+    position: absolute;
+    
+}
+.stats-book{
+    width: 525px;
+    height: 118px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #00BAC7;
+    border-radius: 20px;
+    box-shadow: 0px 30px 60px 0px #00BAC766;
+    position: absolute;
+    top: 681px;
+}
+.stats-book .stats{
+    width: 106px;
+    height: 58px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: left;
+    margin-left: 50px;
+}
+.stats-book .stats i{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+.stats-book .stats p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.manfaat-title{
+    width: 575px;
+    height: 88px;
+    font-family: 'DM Sans', sans-serif;
+    color: #272D3E;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: -50px;
+    margin-bottom: 10px;
+}
+.kutipan{
+    width: 575px;
+    height: 98px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #272D3ECC;
+    margin-top: 20px;
+}
+.list-manfaat{
+    width: 575px;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+}
+.list-manfaat ul {
+    display: flex;
+    flex-direction: column;
+    width: 575px;
+    height: 300px;
+    padding: 0;
+    justify-content: space-evenly;
+
+}
+.list-manfaat ul li{
+    list-style: none;
+    display: flex;
+    width: 575px;
+    height: 60px;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family:' DM Sans', sans-serif;
+    color: #272D3ECC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+   
+}
+.list-manfaat ul .manfaat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-manfaat ul li p{
+     margin-left: 20px;
+}
+
+.container-four{
+     width: 100%;
+    height: 826px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EDFCFD;
+
+}
+.selain-session{
+   width: 1180px;
+   height: 820px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.selain-tmb{
+    width: 575px;
+    height: 627px;
+    position: relative;
+    margin-left: -70px;
+    display: flex;
+}
+.selain-box{
+    width: 575px;
+    height: 566px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    margin-left: 40px;
+   
+}
+.selain-box .selain-title{
+    width: 575px;
+    height: 88px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    margin-top: -50px;
+}
+.selain-box .selain-p{
+    width: 575px;
+    height: 96px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    margin-top: 20px;
+
+}
+.selain-navs{
+    width: 575px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.selain-navs .selain-nav{
+    width: 575px;
+    height: 132px;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0px 15px 30px 0px #02282B1A;
+    display: flex;
+    flex-direction: row;
+}
+.selain-navbox{
+    width: 405px;
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    position: relative;
+    justify-content: center;
+    margin-left: 25px;
+   
+}
+.selain-navbox .navbox-title{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00BAC7;
+    display: flex;
+    margin-top: 20px;
+}
+.selain-navbox .navbox-p{
+    color: #272D3ECC;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    margin-top: -20px;
+}
+.selain-icon{
+    width: 30px;
+    height: 46px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-left: 25px;
+
+    justify-content: center;
+}
+.selain-arrow{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-self: center;
+    margin-left: 15px;
+}
+.container-five{
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    background: #EDFCFD;
+
+
+}
+.container-five .pratinjau-session{
+    width: 1180px;
+    height: 1141px;
+    display: flex;
+    flex-direction: column;
+}
+.container-five .pratinjau-session .pratinjau-box{
+    width: 1180px;
+    height: 220px;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.pratinjau-session .pratinjau-box .pra-btn{
+    width: 126px;
+    height: 38px;
+    border-radius: 100px;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #00BAC7;
+    background: #C6F4F8;
+}
+.pratinjau-session .pratinjau-box .pra-title{
+    width: 777px;
+    height: 88px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #272D3E;
+}
+.pratinjau-session .pratinjau-box .pra-text{
+    width: 577px;
+    height: 64px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #272D3ECC;
+    margin-top: 60px;
+}
+.pratinjau-session .pratinjau-box-img{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+.pratinjau-box-img .pra-list{
+    margin-left: -30px;
+}
+.pratinjau-box-img .pra-arrow{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 490px;
+    cursor: pointer;
+}
